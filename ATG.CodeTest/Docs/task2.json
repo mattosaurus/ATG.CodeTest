@@ -1,0 +1,28 @@
+{
+  "Description": "My most recent project was to create a data loading process to retrieve data from a B2B clients custom API serving up Exact Target data and the Pardot API. There was no spec for this work as our brief was to fetch everything possible that might be of interest in order to provide the client with a joined up view of their data to allow them make better use of their existing prospects and to highlight new sales opportunities. To this end I liased closly with the client regarding what data they had available and what they thought would be useful, this was at the same time as they were iterating out their API so the code needed to be flexable enough to take account of frequent changes. For the Pardot API integration the documentation was somewhat lacking so a bit of investigation was required using Postman and Fiddler to try and maximise data retrieval. Authentication protocols also changed halfway through the project due to Pardots full integration into Salesforce. Data was download from API (apart from an initial file load) and streamed directly into SQL databases, generated files were also archived to Azure blob storage.",
+  "NextSteps": "The next step is to integrate a unified view of the customers data into a PowerBI dashboard that's accessable from an OAUTH secured React web app",
+  "Tech": [
+    ".NET Core 5",
+    "C#",
+    "SQL"
+    ],
+    "Tools":
+    [
+      "Visual Studio 2019",
+      "SQL Management Studio 18",
+      "Postman",
+      "Fiddler",
+      "Azure Storage Explorer"
+    ],
+    "Services":
+    [
+      "DevOps",
+      "Git",
+      "SendGrid",
+      "Azure Web Job",
+      "Azure Blob Storage",
+      "Pardot",
+      "Salesforce",
+      "Custom client API"
+    ]
+}
